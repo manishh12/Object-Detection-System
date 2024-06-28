@@ -30,4 +30,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .gradient {
+    @apply bg-gradient-to-b from-black via-gray-500 to-gray-600;
+  }
+  .gradient-title {
+    @apply gradient text-transparent bg-clip-text;
+  }
 }
